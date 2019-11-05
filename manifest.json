@@ -1,0 +1,16 @@
+{
+    "name" : "Localhost manager",
+    "version": "0.0.1",
+    "short_name": "Localhost manager",
+    "manifest_version": 2,
+    "permissions" : [
+        "http://localhost/*",
+        "https://localhost/*",
+        "webRequest",
+        "contextMenus",
+        "storage"
+    ],
+    "background" : {
+        "scripts" : ["/build/background.js"]
+    }
+}

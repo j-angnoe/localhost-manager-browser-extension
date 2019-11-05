@@ -1,0 +1,23 @@
+{
+  "name": "localhost-addon",
+  "version": "0.0.1",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "build": "parcel build src/*.js -d build/",
+    "watch": "parcel watch src/*.js -d build/ --no-hmr --no-source-maps"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "browser-extension-tools": "^0.0.2",
+    "flextension-server": "0.0.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3"
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
+  "devDependencies": {}
+}
