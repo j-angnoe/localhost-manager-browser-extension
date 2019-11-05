@@ -1,4 +1,5 @@
 # Localhost browser extension
+Status: experimental
 
 Handle `unable to connect` errors on localhost
 in an elegant way. 
@@ -35,7 +36,7 @@ Browsers won't allow us to run arbitrary commands (anymore), which is probably a
 The extension by default will allow you to copy-paste
 commands so you can execute them in your terminal.
 
-If you want a more streamlined experience, it is possible to start the localhost-compagnon (probably npm install -g browser-compagnon-socketserver). The browser extension(s) will be able to connect to your localhost via WebSockets and be able to run commands.
+If you want a more streamlined experience, it is possible to start the flextension-server ([npm](https://www.npmjs.com/package/flextension-server), [git](https://github.com/j-angnoe/flextension-server)). The browser extension(s) will be able to connect to your localhost via WebSockets and be able to run commands.
 
 Please be aware of the fact that opening a WebSocket server that accepts connections and commands to be executed on your machine may be extremily dangerous, and is not recommended.
 
