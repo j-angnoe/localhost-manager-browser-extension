@@ -1,6 +1,6 @@
 {
     "name" : "Localhost manager",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "short_name": "Localhost manager",
     "manifest_version": 2,
     "permissions" : [
